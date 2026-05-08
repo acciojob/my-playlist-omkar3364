@@ -1,5 +1,5 @@
 body{
-            background-color: rgb(204, 204, 204);
+            background-color: #cccccc;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
@@ -7,21 +7,19 @@ body{
 
         h1{
             text-align: center;
-            margin-bottom: 30px;
         }
 
         h2{
             text-align: center;
         }
 
-        .playlist,
-        .player_one{
+        .player_one,
+        .player_two{
             background-color: white;
-            border: 2px solid black;
             border-radius: 10px;
             padding: 20px;
-            width: 90%;
             margin: 20px auto;
+            width: 90%;
         }
 
         ul{
@@ -31,23 +29,19 @@ body{
         li{
             list-style-type: none;
             margin: 15px 0;
-            font-size: 22px;
         }
 
         a{
-            text-decoration-line: none;
+            text-decoration: none;
             color: black;
+            font-size: 18px;
         }
 
-        video{
-            width: 100%;
-            border-radius: 5px;
-        }
-
-        .audio-section{
-            margin-top: 20px;
-        }
-
+        video,
         audio{
             width: 100%;
+        }
+
+        p{
+            margin-top: 20px;
         }
